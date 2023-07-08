@@ -1,0 +1,146 @@
+Autor: Tamara Prussak de Sousa
+Nome da Solução: UaiZed
+
+Situação - Problema: 
+
+Karen é manicure e trabalha no shopping, recebe R$ 2.400 reais por mês, ela está planejando iniciar o financiamento de uma casa pelo programa Minha Casa, Minha vida, porém devido a falta de tempo de ir a um banco físico, ficar na fila e conversar com o gerente do banco, Karen fica adiando dar o primeiro passo, sem contar a sua dúvida se o que ela ganha é o suficiente para começar um financiamento. 
+
+Amanda é analista de sistemas em uma multinacional, seu salário é de R$ 5.300 reais ela gostaria de pegar um empréstimo para realizar o sonho de comprar um carro para ir todos os dias ao trabalho, mas ela tem dúvidas sobre seus investimentos e sobre a segurança de se pedir um empréstimo. 
+
+UaiZed, é uma plataforma, que utiliza big data e inteligência artificial, baseado em dados preenchidos pelo usuário que mostra soluções de empréstimo, assim como facilidade em formas de pagamento. 
+
+Situação - Solução: 
+
+Karen fez o cadastro na plataforma UaiZed, preencheu os dados de cadastro, teve seu usuário verificado (base em foto, e documento com foto) preencheu suas informações financeiras, e sua pretensão em fazer um financiamento em uma casa pelo minha casa minha vida, a plataforma mostrou que ela está elegível para o programa e taxa de juros nominal de até 4,50% a.a e informou melhores opções para ela adquirir créditos para iniciar as parcelas de seu futuro imóvel.
+
+Amanda fez todas etapas de cadastro e verificação do usuário na plataforma UaiZed, ela preencheu seus dados financeiros, e baseado na análise de crédito a plataforma mostrou os tipos de empréstimos, juros e melhores formas dela adquirir o seu carro. 
+
+
+O que é o UaiZed?
+
+Primeiramente o nome UaiZed, foi baseado na sigla YYZ do aeroporto de Toronto.
+No Canada a letra em inglês Z (Zee) é pronunciada como “Zed”. 
+UaiZed é uma plataforma, que mostra as melhores formas de empréstimo baseado em análise da renda do usuário e em big data. 
+
+As fontes do big data serão:
+Agências de Crédito: Empresas especializadas em agências de crédito, como Equifax, Experian e TransUnion, possuem uma vasta quantidade de dados relacionados ao histórico de crédito dos consumidores. Esses dados incluem informações sobre pagamentos passados, saldos de dívidas, limites de crédito, entre outros, que podem ser utilizados para avaliar o perfil de crédito dos usuários.
+
+Instituições Financeiras: Bancos, cooperativas de crédito e outras instituições financeiras possuem dados internos de seus clientes, como transações financeiras, histórico de pagamentos e saldos de contas. Esses dados podem ser utilizados para entender o comportamento financeiro dos clientes e identificar padrões relevantes para a avaliação de risco de crédito.
+
+Dados Públicos: Existem diversas fontes de dados públicos, como registros de propriedade, registros de falências, registros de cartórios, informações demográficas, dados do mercado imobiliário e informações econômicas. Esses dados podem fornecer informações contextuais importantes para a análise de crédito.
+
+Redes Sociais: As redes sociais podem fornecer informações adicionais sobre os clientes, como ocupação, interesses, conexões sociais e comportamento online. Essas informações podem ser úteis para segmentar os usuários e entender melhor seu perfil financeiro.
+
+Dados Comportamentais de Aplicativos e Websites: Seu próprio aplicativo pode coletar dados comportamentais dos usuários, como padrões de navegação, interações com o aplicativo, preferências de produtos e serviços, entre outros. Esses dados podem ser utilizados para personalizar as recomendações e melhorar a experiência do usuário.
+
+Dados de Parceiros e Terceiros: Parcerias estratégicas com outras empresas ou fornecedores de dados podem fornecer acesso a dados adicionais, como dados de transações comerciais, informações de mercado específicas ou dados de comportamento financeiro agregado.
+
+
+
+
+A UaiZed é composta por 12 microsserviços:
+Serviço de Autenticação
+Serviço de Cliente
+Serviço de Avaliação de Crédito
+Serviço de Empréstimo
+Serviço de Pagamentos
+Serviço de Notificações
+Serviço de Geração de Contratos
+Serviço de Gestão de Documentos
+Serviço de Cobrança
+Serviço de Cálculo de Juros
+Serviço de Monitoramento de Fraudes
+Serviço de Relatórios e Análises
+
+O Serviço de Autenticação, será baseado em Build, Release, Run, onde o  processo de construção, lançamento e execução do serviço de autenticação deve ser automatizado e consistente, facilitando a implantação e a atualização do serviço em diferentes ambientes.
+
+O serviço de Cliente, consiste em Privacidade e Segurança, inclui o uso adequado de medidas de proteção de dados, cadastro de clientes, autenticação e autorização, atualização de informações, segmento de clientes e notificação e comunicação.
+
+
+O Serviço de Avaliação de Crédito,o serviço de avaliação de crédito ajuda o cliente a tomar decisões informadas sobre a concessão de crédito, gerenciar riscos e garantir a conformidade com regulamentações financeiras.
+
+O Serviço de empréstimo, serviço de empréstimo baseado em big data e IA, com parcerias de outras instituições de empréstimo e uma parceria com o Serasa, oferece uma abordagem moderna e personalizada para a concessão de empréstimos. Utilizamos dados em larga escala, algoritmos avançados e parcerias estratégicas para fornecer aos clientes recomendações personalizadas, acesso a uma variedade de opções de empréstimos e uma experiência simplificada e eficiente.
+
+
+O Serviço de Pagamento, após a concessão do empréstimo, a forma de pagamento seria definida com base nas preferências e necessidades do cliente. Aqui está uma descrição de como poderia ser a forma de pagamento:
+
+Opções de Pagamento: UaiZed oferece diversas opções de pagamento para os clientes, permitindo que escolham aquela que melhor se adequa às suas circunstâncias financeiras. Isso pode incluir pagamentos mensais fixos, pagamentos quinzenais, pagamentos semanais ou qualquer outra frequência que seja conveniente para o cliente.
+
+Pagamentos Automáticos: Para facilitar o processo de pagamento e evitar atrasos, ofereceríamos a opção de configurar pagamentos automáticos. Os clientes poderiam autorizar o débito automático das parcelas diretamente de sua conta bancária, garantindo que os pagamentos sejam feitos pontualmente.
+
+Flexibilidade de Pagamento: Reconhecemos que as situações financeiras dos clientes podem variar ao longo do tempo. Portanto, poderíamos oferecer flexibilidade de pagamento para acomodar mudanças nas circunstâncias. Isso pode incluir a opção de realizar pagamentos adicionais ou antecipar parcelas, caso o cliente deseje quitar o empréstimo mais cedo.
+
+Opções de Canais de Pagamento: Para garantir comodidade, ofereceríamos diferentes canais de pagamento. Além do débito automático, os clientes poderiam optar por pagar por meio de transferência bancária, boleto bancário, pagamento online ou qualquer outro método conveniente e seguro.
+
+Notificações de Pagamento: Enviaremos lembretes e notificações aos clientes próximo à data de vencimento das parcelas, para garantir que estejam cientes das obrigações de pagamento. Isso pode ser feito por meio de mensagens de texto, e-mails ou notificações dentro do próprio aplicativo ou plataforma de empréstimo.
+
+Acesso ao Histórico de Pagamentos: Os clientes teriam acesso fácil ao histórico de pagamentos e ao status do empréstimo por meio da plataforma ou aplicativo. Isso permitiria que eles acompanhassem seus pagamentos realizados, verificassem o saldo restante e obtivessem informações atualizadas sobre o empréstimo.
+
+Atendimento ao Cliente: Contaríamos com um suporte ao cliente eficiente e acessível para auxiliar os clientes em caso de dúvidas ou problemas relacionados ao pagamento. Poderíamos oferecer canais de atendimento, como chat ao vivo, e-mail ou telefone, para garantir que os clientes recebam o suporte necessário durante todo o processo de pagamento.
+
+Recompensas por Pagamento Pontual: Para incentivar pagamentos pontuais, poderíamos oferecer recompensas aos clientes que cumprem regularmente com suas obrigações de pagamento. Isso pode incluir taxas de juros reduzidas, descontos futuros em empréstimos ou qualquer outro benefício especial.
+
+Em suma, a forma de pagamento seria flexível, conveniente e adaptada às necessidades dos clientes. UaiZed oferece diversas opções de pagamento, pagamentos automáticos, notificações de pagamento e suporte ao cliente para garantir uma experiência de pagamento tranquila e eficiente. Nosso objetivo seria facilitar o cumprimento das obrigações de pagamento e fornecer uma experiência positiva ao cliente ao longo do período de reembolso do empréstimo.
+
+O Serviço de notificação, as notificações desempenham um papel importante no serviço de empréstimo, mantendo os clientes informados sobre seu empréstimo, datas de pagamento e outras informações relevantes. Além disso, oferecemos notificações personalizadas, incluindo alertas quando uma taxa de juros esperada pelo cliente estiver disponível. Aqui está uma descrição mais detalhada sobre as notificações:
+
+Lembretes de Pagamento: Enviamos notificações aos clientes alguns dias antes da data de vencimento das parcelas, para lembrá-los de fazer o pagamento. Esses lembretes podem ser enviados por meio de mensagens de texto, e-mails ou notificações no aplicativo, para garantir que os clientes estejam cientes de suas obrigações de pagamento.
+
+Confirmação de Pagamento: Após o pagamento de uma parcela, enviamos uma notificação de confirmação de pagamento para informar ao cliente que o pagamento foi recebido e registrado com sucesso. Isso fornece tranquilidade e transparência em relação ao status do pagamento.
+
+Informações sobre o Empréstimo: Enviamos notificações periódicas com informações atualizadas sobre o empréstimo, como saldo restante, prazo de pagamento, histórico de pagamentos e qualquer outra informação relevante. Isso permite que os clientes acompanhem o progresso do seu empréstimo e tenham uma visão clara da sua situação financeira.
+
+Taxas de Juros Personalizadas: Com base nas preferências e requisitos do cliente, podemos enviar notificações personalizadas quando uma taxa de juros esperada pelo cliente estiver disponível. Se as condições de mercado ou do cliente mudarem, o sistema pode enviar alertas quando uma taxa de juros favorável estiver dentro do intervalo de preferência estabelecido pelo cliente.
+
+Ofertas Especiais e Promoções: Por meio de notificações, também podemos informar os clientes sobre ofertas especiais e promoções, como taxas de juros reduzidas por tempo limitado, descontos em taxas de empréstimo ou qualquer outra vantagem financeira disponível. Isso permite que os clientes aproveitem oportunidades favoráveis e economizem dinheiro ao solicitar empréstimos.
+
+Comunicações Personalizadas: Além das notificações automáticas, podemos enviar comunicações personalizadas para os clientes com base em seu perfil, histórico de empréstimo e preferências. Essas comunicações podem incluir informações relevantes, dicas financeiras, recomendações de produtos ou qualquer outro conteúdo que agregue valor ao cliente.
+
+Configurações de Preferências: Os clientes teriam a capacidade de definir suas preferências de notificação, escolhendo o tipo de notificações que desejam receber, o canal de comunicação preferido e a frequência das notificações. Isso garante que os clientes tenham controle sobre as informações que desejam receber e como desejam recebê-las.
+
+É fundamental respeitar as preferências dos clientes e seguir as regulamentações de privacidade e proteção de dados ao enviar notificações. O objetivo das notificações é manter os clientes informados, fornecer transparência, facilitar o cumprimento das obrigações de pagamento e oferecer oportunidades relevantes com base em suas necessidades individuais.
+
+Ao personalizar as notificações e fornecer informações relevantes, buscamos garantir que os clientes estejam sempre atualizados e possam tomar decisões financeiras mais informadas ao longo do período de empréstimo.
+
+O Serviço de contratos, Utilizaríamos a tecnologia de contratos digitais para oferecer aos clientes uma forma conveniente e segura de assinar e gerenciar seus contratos. Os contratos seriam disponibilizados eletronicamente por meio da plataforma ou aplicativo, permitindo que os clientes revisem, aceitem e assinem digitalmente os contratos sem a necessidade de documentos físicos.
+
+O Serviço de documentos, Upload de Documentos: Os clientes seriam orientados a fazer o upload dos documentos necessários para o processo de empréstimo diretamente na plataforma ou aplicativo. Isso incluiria documentos como comprovante de renda, comprovante de residência, identificação pessoal e outros documentos exigidos para a análise de crédito e aprovação do empréstimo.
+
+Verificação e Validação: Utilizaríamos tecnologias avançadas de verificação e validação para garantir a autenticidade e integridade dos documentos enviados pelos clientes. Isso incluiria a verificação de assinaturas, reconhecimento óptico de caracteres (OCR) para extrair informações dos documentos e a comparação com bases de dados confiáveis para verificar a autenticidade dos documentos fornecidos.
+
+Armazenamento Seguro: Os documentos seriam armazenados de forma segura em um ambiente digital protegido. Utilizaríamos medidas de segurança robustas, como criptografia, controle de acesso e backups regulares, para garantir a confidencialidade e integridade dos documentos.
+
+Acesso e Gerenciamento: Os clientes teriam acesso fácil aos seus documentos por meio da plataforma ou aplicativo. Eles poderiam visualizar, fazer o download e imprimir os documentos sempre que necessário. Além disso, forneceríamos recursos de gerenciamento de documentos, permitindo que os clientes organizem e categorizem seus arquivos para uma referência fácil e rápida.
+
+Prazo de Retenção: Cumpriríamos as regulamentações de retenção de documentos aplicáveis, mantendo os documentos em nosso sistema pelo tempo necessário. Após o prazo de retenção, os documentos seriam devidamente descartados de forma segura, garantindo a conformidade com as políticas de privacidade e proteção de dados.
+
+Notificações de Documentos: Enviaríamos notificações aos clientes para informá-los sobre o recebimento de novos documentos, solicitar documentos adicionais, notificar a aprovação ou recusa do empréstimo, ou qualquer outra comunicação relacionada à gestão de documentos.
+
+Suporte ao Cliente: Ofereceríamos suporte ao cliente para auxiliar em quaisquer dúvidas ou dificuldades relacionadas à gestão de documentos. Os clientes poderiam entrar em contato conosco por meio de canais de atendimento dedicados para obter assistência adicional.
+
+A gestão de documentos digital simplifica o processo de empréstimo, eliminando a necessidade de documentos físicos e burocracia excessiva. Garantimos a segurança e integridade dos documentos dos clientes, cumprindo as regulamentações e mantendo a confidencialidade das informações fornecidas.
+
+
+O serviço de cobrança, Notificações de Pagamento Atrasado: Quando um cliente atrasa um pagamento, enviaremos notificações de pagamento atrasado para lembrar o cliente sobre a pendência. Essas notificações podem ser enviadas por meio de mensagens de texto, e-mails ou notificações no aplicativo, destacando a importância de realizar o pagamento o mais breve possível.
+
+Alertas de Vencimento: Antes da data de vencimento das parcelas, enviaremos alertas aos clientes para lembrá-los da próxima data de pagamento. Isso ajuda a evitar atrasos desnecessários e permite que os clientes se planejem adequadamente.
+
+Canais de Comunicação: Utilizaremos diversos canais de comunicação para entrar em contato com os clientes em relação à cobrança de pagamentos. Além de mensagens eletrônicas, também poderemos entrar em contato por telefone ou correspondência física, dependendo das preferências do cliente e das circunstâncias específicas.
+
+Opções de Pagamento Alternativas: Se um cliente estiver enfrentando dificuldades financeiras temporárias, ofereceremos opções de pagamento alternativas. Isso pode incluir o reescalonamento do pagamento, permitindo que o cliente faça pagamentos em parcelas menores por um período de tempo determinado, ou o estabelecimento de um plano de pagamento personalizado com base nas circunstâncias individuais do cliente.
+
+Negociação de Acordos de Pagamento: Caso o cliente esteja com dificuldades financeiras prolongadas, ofereceremos a possibilidade de negociar acordos de pagamento. Nesse caso, trabalharemos com o cliente para estabelecer um plano de pagamento viável, considerando sua situação financeira atual e buscando chegar a um acordo mutuamente benéfico.
+
+Atendimento ao Cliente Dedicado: Disponibilizaremos uma equipe de atendimento ao cliente especializada em cobrança para lidar com as preocupações e perguntas dos clientes. Essa equipe fornecerá suporte personalizado e orientação em relação aos pagamentos, ajudando os clientes a encontrar soluções e superar quaisquer desafios financeiros que possam estar enfrentando.
+
+Processos de Cobrança Automatizados: Utilizaremos sistemas automatizados para auxiliar no processo de cobrança, agilizando a comunicação e permitindo uma resposta rápida às situações de inadimplência. Isso nos permite acompanhar e gerenciar de forma eficiente a cobrança de pagamentos em atraso.
+
+Tratamento Legal: Em casos de inadimplência persistente, quando necessário, tomaremos as medidas legais apropriadas para proteger nossos interesses e buscar a recuperação dos pagamentos devidos. Isso pode envolver a contratação de serviços jurídicos especializados para lidar com o processo de recuperação de dívidas.
+
+Nossa abordagem de cobrança seria sempre orientada para encontrar soluções amigáveis e ajudar os clientes a retomarem seus pagamentos de forma adequada. Buscamos fornecer um serviço de cobrança justo, transparente e profissional, mantendo uma comunicação clara e efetiva com os clientes em todas as etapas do processo.
+
+Serviço de Cálculo de Juros, garantir a precisão e transparência no cálculo de juros é fundamental para garantir que os clientes entendam completamente os custos associados ao empréstimo. Nosso serviço de cálculo de juros busca fornecer informações claras, acesso fácil aos detalhes do cálculo e suporte ao cliente para garantir que os clientes tenham uma experiência confiável e transparente em relação aos juros cobrados.
+
+Serviço de Monitoramento de Fraudes, equipe de Prevenção de Fraudes: Contaríamos com uma equipe dedicada à prevenção e detecção de fraudes, composta por especialistas em segurança e análise de dados. Essa equipe estaria constantemente atualizada sobre as últimas tendências e técnicas de fraude, garantindo uma resposta eficaz e proativa a ameaças emergentes.
+
+Serviço de Relatórios e Análises, serviço de relatórios e análise visa capacitar os clientes com informações relevantes, insights significativos e recomendações personalizadas. Ao fornecer uma visão clara e atualizada de sua situação financeira, buscamos ajudar os clientes a tomar decisões informadas, otimizar seus recursos financeiros e alcançar seus objetivos financeiros de forma mais eficaz.
