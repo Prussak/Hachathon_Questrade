@@ -25,3 +25,12 @@ CREATE TABLE emprestimos (
   data_ultimo_pagamento DATE,
   FOREIGN KEY (usuario_id) REFERENCES usuarios(id)
 );
+
+CREATE TABLE emprestimos_bancos (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  numero_emprestimos_disponiveis INT NOT NULL,
+  fornecedor VARCHAR(255) NOT NULL,
+  valores_disponiveis DECIMAL(10, 2) NOT NULL,
+  juros_ao_ano DECIMAL(5, 2) NOT NULL
+);
+
