@@ -1,5 +1,5 @@
 CREATE TABLE usuarios (
-  id INT AUTO_INCREMENT PRIMARY KEY,
+  id_user INT AUTO_INCREMENT PRIMARY KEY,
   nome VARCHAR(255) NOT NULL,
   sobrenome VARCHAR(255) NOT NULL,
   cpf VARCHAR(11) NOT NULL UNIQUE,
@@ -14,7 +14,7 @@ CREATE TABLE usuarios (
 );
 
 CREATE TABLE emprestimos (
-  id INT AUTO_INCREMENT PRIMARY KEY,
+  id_emprestimo INT AUTO_INCREMENT PRIMARY KEY,
   codigo_emprestimo VARCHAR(255) UNIQUE,
   usuario_id INT,
   valor_emprestimo DECIMAL(10, 2) NOT NULL,
@@ -27,7 +27,7 @@ CREATE TABLE emprestimos (
 );
 
 CREATE TABLE emprestimos_bancos (
-  id INT AUTO_INCREMENT PRIMARY KEY,
+  id_banco INT AUTO_INCREMENT PRIMARY KEY,
   numero_emprestimos_disponiveis INT NOT NULL,
   fornecedor VARCHAR(255) NOT NULL,
   valores_disponiveis DECIMAL(10, 2) NOT NULL,
